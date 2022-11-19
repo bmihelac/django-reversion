@@ -16,7 +16,7 @@ except ImportError:
 
 
 def read(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, "r") as f:
         return f.read()
 
 
